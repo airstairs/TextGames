@@ -5,6 +5,7 @@ phrase = input("please enter your phrase without punctuation \nphrase: ")
 dead ="_______"
 place=""
 cgs=""
+icgs=""
 go = True
 while go:
    os.system("clear")
@@ -20,22 +21,31 @@ while go:
        else:
            solved += " "
 
+   print()
+   print(f"incorrect_guesses: {icgs}")
+   print()
+
+
+
    print(solved)
-   print("\nEnter guess: ")
-   guess=input()
-   if guess not in phrase:
-       place += "_"
-   if guess in phrase:
-       cgs += guess
-   if place == dead:
-       go=False
-       os.system("clear")
-       print(dead)
-       print(place)
-       print("You died!")
+   if solved != phrase:
+       print("\nEnter guess: ")
+       guess=input()
+       if guess not in phrase:
+           place += "_"
+           icgs += guess
+       if guess in phrase:
+           cgs += guess
+       if place == dead:
+           go=False
+           os.system("clear")
+           print(dead)
+           print(place)
+           print("You died!")
    if solved == phrase:
        go = False
        os.system("clear")
        os.system(f"figlet you win! | lolcat")
        print(phrase)
 
+   
