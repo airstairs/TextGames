@@ -1,0 +1,318 @@
+Script started on 2026-05-26 17:23:09-04:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="47" LINES="28"]
+[?2004h[0;32m.../TextGames/HangMan[0m [0;97m$[0m [K[0;32m.../TextGames/HangMan[0m [0;97m$[0m [K[0;32m.../TextGames/HangMan[0m [0;97m$[0m python main.py 
+[?2004lwelcome to hangman
+please enter your phrase without punctuation 
+phrase: hello apple google microsoft netflix 
+[H[2J[3J_______
+
+
+incorrect_guesses: 
+
+----- ----- ------ --------- ------- 
+
+Enter guess: 
+x
+[H[2J[3J_______
+
+
+incorrect_guesses: 
+
+----- ----- ------ --------- ------x 
+
+Enter guess: 
+x
+[H[2J[3J_______
+
+
+incorrect_guesses: 
+
+----- ----- ------ --------- ------x 
+
+Enter guess: 
+x
+[H[2J[3J_______
+
+
+incorrect_guesses: 
+
+----- ----- ------ --------- ------x 
+
+Enter guess: 
+c
+[H[2J[3J_______
+
+
+incorrect_guesses: 
+
+----- ----- ------ --c------ ------x 
+
+Enter guess: 
+q
+[H[2J[3J_______
+_
+
+incorrect_guesses: q
+
+----- ----- ------ --c------ ------x 
+
+Enter guess: 
+r
+[H[2J[3J_______
+_
+
+incorrect_guesses: q
+
+----- ----- ------ --cr----- ------x 
+
+Enter guess: 
+e
+[H[2J[3J_______
+_
+
+incorrect_guesses: q
+
+-e--- ----e -----e --cr----- -e----x 
+
+Enter guess: 
+p
+[H[2J[3J_______
+_
+
+incorrect_guesses: q
+
+-e--- -pp-e -----e --cr----- -e----x 
+
+Enter guess: 
+a
+[H[2J[3J_______
+_
+
+incorrect_guesses: q
+
+-e--- app-e -----e --cr----- -e----x 
+
+Enter guess: 
+c
+[H[2J[3J_______
+_
+
+incorrect_guesses: q
+
+-e--- app-e -----e --cr----- -e----x 
+
+Enter guess: 
+q
+[H[2J[3J_______
+__
+
+incorrect_guesses: qq
+
+-e--- app-e -----e --cr----- -e----x 
+
+Enter guess: 
+q
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+-e--- app-e -----e --cr----- -e----x 
+
+Enter guess: 
+t
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+-e--- app-e -----e --cr----t -et---x 
+
+Enter guess: 
+h
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+he--- app-e -----e --cr----t -et---x 
+
+Enter guess: 
+l
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hell- apple ----le --cr----t -et-l-x 
+
+Enter guess: 
+o
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le --cro-o-t -et-l-x 
+
+Enter guess: 
+i
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le -icro-o-t -et-lix 
+
+Enter guess: 
+s
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le -icroso-t -et-lix 
+
+Enter guess: 
+r f
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le -icrosoft -etflix 
+
+Enter guess: 
+n
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le -icrosoft netflix 
+
+Enter guess: 
+m
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+e
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+e
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+e
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+e
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+a
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+a
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+a
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+p
+[H[2J[3J_______
+___
+
+incorrect_guesses: qqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+q
+[H[2J[3J_______
+____
+
+incorrect_guesses: qqqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+q
+[H[2J[3J_______
+_____
+
+incorrect_guesses: qqqqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+q
+[H[2J[3J_______
+______
+
+incorrect_guesses: qqqqqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+s
+[H[2J[3J_______
+______
+
+incorrect_guesses: qqqqqq
+
+hello apple -oo-le microsoft netflix 
+
+Enter guess: 
+u
+[H[2J[3J_______
+_______
+You died!
+[?2004h[0;32m.../TextGames/HangMan[0m [0;97m$[0m exit
+[?2004lexit
+
+Script done on 2026-05-26 17:24:38-04:00 [COMMAND_EXIT_CODE="0"]
