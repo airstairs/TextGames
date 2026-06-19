@@ -26,7 +26,7 @@ def print_board():
     print(sep)
     print(x7+x8+x9)
 
-
+board = [x1, x2, x3, x4, x5, x6, x7, x8, x9] 
 
 if __name__ == "__main__":
     print_board()
