@@ -74,7 +74,7 @@ def print_board():
 
 def welcome_player():
     os.system("clear")
-    #load()
+    load()
     os.system("clear")
 
 
